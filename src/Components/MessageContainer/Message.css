@@ -1,0 +1,99 @@
+.roundPhoto{
+    height: 7vh;
+    width:7vh;
+}
+
+.items1{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.avOnline{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.nameEmoji{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+#nameUser{
+    display: flex;
+    margin-left: 30px;
+    font-size: small;
+    font-weight: 700;
+}
+.items1:hover{
+    background-color: beige;
+}
+.convo{
+    display: flex;
+    flex-direction: column;
+}
+.logout{
+    position: absolute;  /* Positions the button relative to its container */
+    bottom: 10px;        /* Push it to the bottom */
+    left: 10px;          /* Adjust left position as needed */
+   
+    
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logbutton{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.conversation9{
+    width:80vh;
+    height: 70vh;
+    border:2px solid whitesmoke;
+    background: #B2AB87;
+}
+.toMessage1 .toMessage{
+    
+    color: beige;
+
+}
+.toMessage1{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    background-color: #B2AB87;
+}
+.toMessage{
+    margin-left: 10px;
+    background-color: #B2AB87;
+
+}
+.conversation9{
+    background-color: #B2AB87;
+}
+
+.width69{
+    width: 80vh;
+}
+
+
+/* dark mode looking scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #121212;
+	border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #242424;
+}
